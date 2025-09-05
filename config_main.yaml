@@ -1,0 +1,6 @@
+# 主設定檔
+mode: "root"         # root / nroot
+device_name: "MyPhone"  # 裝置名稱 (限制 20 字)
+admin_password: "encrypted:2463cbps3731"  # 管理者密碼 (加密後存)
+scheduler_enabled: true
+log_days: 30
