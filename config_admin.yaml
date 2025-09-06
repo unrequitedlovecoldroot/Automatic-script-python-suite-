@@ -1,0 +1,4 @@
+# 管理者設定
+admin_user: "unrequitedlovecold"
+admin_pass: "2463cbps3731"   # 登入驗證會加密，不會明文比對
+log_track: true              # 是否追蹤使用者完整操作紀錄
