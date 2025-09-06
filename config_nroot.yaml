@@ -1,0 +1,10 @@
+# 無 ROOT 模式設定
+auto_schedule: false
+unlock:
+  type: "none"
+click_mode: "ratio"
+delay: 5
+notify:
+  method: "telegram"
+  token: ""
+  chat_id: ""
