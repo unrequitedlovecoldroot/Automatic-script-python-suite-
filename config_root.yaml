@@ -1,0 +1,11 @@
+# ROOT 模式設定
+auto_schedule: true   # 是否開啟自動排程
+unlock:
+  type: "pattern"     # pin / pattern / none / custom
+  pattern: [1,2,3,6,9] # 解鎖路徑
+click_mode: "ratio"   # 點擊模式：ratio / absolute
+delay: 2              # 每步驟延遲秒數
+notify:
+  method: "telegram"  # 通知方式 telegram / line / discord
+  token: ""           # Bot Token
+  chat_id: ""         # Chat ID
